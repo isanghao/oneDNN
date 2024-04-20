@@ -199,10 +199,13 @@ typedef enum {
     dnnl_adbc, ///< permuted 4D tensor
     dnnl_adcb, ///< permuted 4D tensor
     dnnl_bacd, ///< permuted 4D tensor
+    dnnl_bcad, ///< permuted 4D tensor
     dnnl_bcda, ///< permuted 4D tensor
+    dnnl_cabd, ///< permuted 4D tensor
     dnnl_cdab, ///< permuted 4D tensor
     dnnl_cdba, ///< permuted 4D tensor
     dnnl_dcab, ///< permuted 4D tensor
+    dnnl_dabc, ///< permuted 4D tensor
     dnnl_abced, ///< permuted 5D tensor
     dnnl_abdec, ///< permuted 5D tensor
     dnnl_acbde, ///< permuted 5D tensor

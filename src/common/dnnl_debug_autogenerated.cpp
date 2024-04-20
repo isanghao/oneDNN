@@ -126,9 +126,12 @@ const char *dnnl_fmt_tag2str(dnnl_format_tag_t v) {
     if (v == dnnl_adcb) return "adcb";
     if (v == dnnl_bacd) return "bacd";
     if (v == dnnl_bcda) return "bcda";
+    if (v == dnnl_bcad) return "bcad";
     if (v == dnnl_cdab) return "cdab";
     if (v == dnnl_cdba) return "cdba";
     if (v == dnnl_dcab) return "dcab";
+    if (v == dnnl_cabd) return "cabd";
+    if (v == dnnl_dabc) return "dabc";
     if (v == dnnl_abced) return "abced";
     if (v == dnnl_abdec) return "abdec";
     if (v == dnnl_acbde) return "acbde";
